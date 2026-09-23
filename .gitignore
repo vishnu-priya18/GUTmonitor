@@ -1,3 +1,6 @@
+# Temporary PowerPoint / Office files
+~$*
+
 # Node / Frontend
 frontend/node_modules/
 frontend/dist/
