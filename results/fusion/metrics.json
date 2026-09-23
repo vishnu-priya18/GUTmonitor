@@ -1,0 +1,63 @@
+{
+  "dataset": "Prototype Feature-Level Multimodal Fusion Dataset",
+  "num_test_samples": 120,
+  "accuracy": 1.0,
+  "precision_macro": 1.0,
+  "recall_macro": 1.0,
+  "f1_macro": 1.0,
+  "classes": [
+    "Low GI Risk",
+    "Moderate GI Risk",
+    "Higher GI Risk"
+  ],
+  "confusion_matrix": [
+    [
+      43,
+      0,
+      0
+    ],
+    [
+      0,
+      42,
+      0
+    ],
+    [
+      0,
+      0,
+      35
+    ]
+  ],
+  "classification_report": {
+    "Low GI Risk": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 43.0
+    },
+    "Moderate GI Risk": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 42.0
+    },
+    "Higher GI Risk": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 35.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 120.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 120.0
+    }
+  }
+}

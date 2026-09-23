@@ -1,0 +1,74 @@
+[
+  {
+    "id": "expo_case_low_risk",
+    "name": "Case A: Low Risk Baseline Profile",
+    "expected_risk": "Low GI Risk",
+    "tongue_image": "/sample_data/tongue_samples/expo_case_low_risk_tongue.jpg",
+    "skin_image": "/sample_data/skin_samples/expo_case_low_risk_skin.jpg",
+    "clinical_data": {
+      "age": 28,
+      "bmi": 22.4,
+      "abdominal_pain_severity": 0,
+      "bloating_frequency": 0,
+      "acid_reflux_frequency": 1,
+      "constipation_score": 0,
+      "diarrhea_score": 0,
+      "nausea_vomiting": 0,
+      "dietary_fiber_intake": "high",
+      "fatty_food_intake": "low",
+      "alcohol_consumption": "none",
+      "smoking_status": "non-smoker",
+      "physical_activity_hours": 6.5,
+      "perceived_stress_level": 3,
+      "sleep_duration_hrs": 7.5
+    }
+  },
+  {
+    "id": "expo_case_moderate_risk",
+    "name": "Case B: Moderate GI Risk Profile (GERD / Gastritis Signs)",
+    "expected_risk": "Moderate GI Risk",
+    "tongue_image": "/sample_data/tongue_samples/expo_case_moderate_risk_tongue.jpg",
+    "skin_image": "/sample_data/skin_samples/expo_case_moderate_risk_skin.jpg",
+    "clinical_data": {
+      "age": 42,
+      "bmi": 27.8,
+      "abdominal_pain_severity": 2,
+      "bloating_frequency": 3,
+      "acid_reflux_frequency": 3,
+      "constipation_score": 1,
+      "diarrhea_score": 1,
+      "nausea_vomiting": 0,
+      "dietary_fiber_intake": "medium",
+      "fatty_food_intake": "high",
+      "alcohol_consumption": "moderate",
+      "smoking_status": "former",
+      "physical_activity_hours": 2.0,
+      "perceived_stress_level": 7,
+      "sleep_duration_hrs": 6.0
+    }
+  },
+  {
+    "id": "expo_case_higher_risk",
+    "name": "Case C: Higher GI Risk Profile (Suspected IBS / IBD Signs)",
+    "expected_risk": "Higher GI Risk",
+    "tongue_image": "/sample_data/tongue_samples/expo_case_higher_risk_tongue.jpg",
+    "skin_image": "/sample_data/skin_samples/expo_case_higher_risk_skin.jpg",
+    "clinical_data": {
+      "age": 51,
+      "bmi": 31.2,
+      "abdominal_pain_severity": 4,
+      "bloating_frequency": 4,
+      "acid_reflux_frequency": 4,
+      "constipation_score": 4,
+      "diarrhea_score": 3,
+      "nausea_vomiting": 1,
+      "dietary_fiber_intake": "low",
+      "fatty_food_intake": "high",
+      "alcohol_consumption": "heavy",
+      "smoking_status": "current",
+      "physical_activity_hours": 0.5,
+      "perceived_stress_level": 9,
+      "sleep_duration_hrs": 5.0
+    }
+  }
+]

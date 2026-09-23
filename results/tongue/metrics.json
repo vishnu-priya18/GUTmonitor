@@ -1,0 +1,97 @@
+{
+  "dataset": "TMC / TCM Tongue Diagnosis Image Dataset",
+  "num_test_samples": 100,
+  "accuracy": 0.98,
+  "precision_macro": 0.9818,
+  "recall_macro": 0.98,
+  "f1_macro": 0.9799,
+  "classes": [
+    "pale",
+    "light_red",
+    "red",
+    "deep_red",
+    "purple"
+  ],
+  "confusion_matrix": [
+    [
+      20,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      18,
+      2,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      20,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      20,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      20
+    ]
+  ],
+  "classification_report": {
+    "pale": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "light_red": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1-score": 0.9473684210526315,
+      "support": 20.0
+    },
+    "red": {
+      "precision": 0.9090909090909091,
+      "recall": 1.0,
+      "f1-score": 0.9523809523809523,
+      "support": 20.0
+    },
+    "deep_red": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "purple": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 20.0
+    },
+    "accuracy": 0.98,
+    "macro avg": {
+      "precision": 0.9818181818181818,
+      "recall": 0.9800000000000001,
+      "f1-score": 0.9799498746867167,
+      "support": 100.0
+    },
+    "weighted avg": {
+      "precision": 0.9818181818181819,
+      "recall": 0.98,
+      "f1-score": 0.9799498746867168,
+      "support": 100.0
+    }
+  }
+}

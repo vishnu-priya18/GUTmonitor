@@ -1,0 +1,63 @@
+{
+  "dataset": "Gastrointestinal Symptoms & Lifestyle Dataset (1,000 patient records)",
+  "num_test_samples": 200,
+  "accuracy": 0.795,
+  "precision_macro": 0.5462,
+  "recall_macro": 0.5577,
+  "f1_macro": 0.5456,
+  "classes": [
+    "Low GI Risk",
+    "Moderate GI Risk",
+    "Higher GI Risk"
+  ],
+  "confusion_matrix": [
+    [
+      0,
+      12,
+      0
+    ],
+    [
+      0,
+      96,
+      7
+    ],
+    [
+      0,
+      22,
+      63
+    ]
+  ],
+  "classification_report": {
+    "Low GI Risk": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 12.0
+    },
+    "Moderate GI Risk": {
+      "precision": 0.7384615384615385,
+      "recall": 0.9320388349514563,
+      "f1-score": 0.8240343347639485,
+      "support": 103.0
+    },
+    "Higher GI Risk": {
+      "precision": 0.9,
+      "recall": 0.7411764705882353,
+      "f1-score": 0.8129032258064516,
+      "support": 85.0
+    },
+    "accuracy": 0.795,
+    "macro avg": {
+      "precision": 0.5461538461538461,
+      "recall": 0.5577384351798972,
+      "f1-score": 0.5456458535234666,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.7628076923076924,
+      "recall": 0.795,
+      "f1-score": 0.7698615533711753,
+      "support": 200.0
+    }
+  }
+}
